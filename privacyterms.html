@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<!-- =======================================
+     Item Name: MaterializeMultiPurpose
+     Author Name: Fred Grott
+     Author URI: http://www.uplabs.com/fred.grott
+     ============================================
+
+    You will find that I put notes specific to this Pack in all the layout files.
+    Just read the comments as I added them with that purpose in mind.
+
+   -->
+<html lang="en"><!-- HTML Begin -->
+  <head><!-- Head Begin -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0 shrink-to-fit=no">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <meta name="description" content="MaterializeMultiPurpose is fully loaded with all the features of a multipurpose site including portoflios, products, services, etc.">
+
+    <title>Privacy</title>
+
+    <!-- Favicons for Android, iOS, MS-mobile, Desktop -->
+    <link rel="icon" sizes="192x192" href="images/favicons/fg-favicon-192x192.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicons/fg-favicon-144x144.png">
+    <link rel="shortcut icon" href="images/favicons/fg-favicon-72x72.png">
+    <link rel="apple-touch-icon"  href="images/favicons/fg-favicon-72x72.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/fg-favicon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/fg-favicon-144x144.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/fg-favicon-180x180.png">
+
+    <!-- CSS, CSS framework first than fonts than custom -->
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="css/material-icons.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/wavesextensions.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+
+    <!-- to prevent fout when using lettering.js -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <!-- Specific jquery plugins to a page go here-->
+
+    <script src="js/init.js"></script>
+
+
+
+    <!-- Facebook, Twitter, and few other popular social platforms
+         require Schema.org, Open Graph, or other markup so that
+         when sharing the url the correct images and site url
+         get posted right during the share -->
+
+    <!-- Schema.org markup goes here -->
+
+    <!-- Open Graph markup goes here -->
+
+    <!-- Twitter Card markup goes here -->
+
+
+
+  </head><!-- Head End -->
+  <body>
+    <header>
+      <!-- DropDown Structures, they have to be outside of nav tags -->
+      <ul id="dropdown1" class="dropdown-content">
+          <li><a href="#!">one</a></li>
+          <li><a href="#!">two</a></li>
+          <li class="divider"></li>
+          <li><a href="#!">three</a></li>
+      </ul>
+      <ul id="dropdown2" class="dropdown-content">
+          <li><a href="#!">one</a></li>
+          <li><a href="#!">two</a></li>
+          <li class="divider"></li>
+          <li><a href="#!">three</a></li>
+      </ul>
+      <ul id="dropdown3" class="dropdown-content">
+         <li><a href="#!">one</a></li>
+         <li><a href="#!">two</a></li>
+         <li class="divider"></li>
+         <li><a href="#!">three</a></li>
+      </ul>
+      <nav><!-- nav begin -->
+        <div class="nav-wrapper"><!-- nav-wrapper begin -->
+          <!-- Hamburger menu icon activation -->
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <!-- desktop left menu -->
+          <ul class="left hide-on-med-and-down">
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pages.html">Pages</a></li>
+            <li><a href="credits.html">Credits</a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Drop1<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+          <a href="index.html" class="center brand-logo"><img src="images/materialized-logo.png"></a><!-- Nav mobile wrapped Logo -->
+          <ul id="mymine" class="right">
+            <!-- A material-icons quirk is that one has trouble putting text right next to the icon,
+                 hence using fotn awsome for the shopping cart badge-->
+            <li><a class=" white-text" href="shoppingcart.html"><i class="fa fa-shopping-cart"></i>4</a></li>
+            <!-- Through your app stuff icon gets changed per login status:
+                     fa fa-unlock for logged-in
+                     fa fa-lock for not logged in
+                  -->
+            <li><a href="login.html"><i class="fa fa-unlock"></i></a></li>
+          </ul>
+          <!-- Mobile Hamburger Menu that slides out-->
+          <ul class="side-nav indigo lighten-5" id="mobile-demo">
+
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pages.html">Pages</a></li>
+            <li><a href="credits.html">Credits</a></li>
+             <li class="no-padding">
+               <ul class="collapsible collapsible-accordion">
+                 <li>
+                   <a class="collapsible-header">Drop1<i class="material-icons">arrow_drop_down</i></a>
+                   <div class="collapsible-body">
+                       <ul>
+                         <li><a href="#!">First</a></li>
+                         <li><a href="#!">Second</a></li>
+                         <li><a href="#!">Third</a></li>
+                         <li><a href="#!">Fourth</a></li>
+                       </ul>
+                    </div>
+                  </li>
+                </ul>
+            </li>
+          </ul>
+        </div><!-- nav wrapper end -->
+      </nav><!-- nav end -->
+    </header>
+    <main>
+      <div id="mybreadcrumbs" class="container"><!-- breadcrumbs begin --->
+        <div class="section">
+          <div class="row">
+            <div clas="col s12">
+              <!-- Breadcrumbs go hee so that they appear on both desktop and mobile
+                   as the Materialize CSS framework hides them on mobile with the
+                   nav-wrapper -->
+            </div>
+          </div>
+        </div>
+      </div><!-- breadcrumbs end-->
+      <div id="pagetitle" class="container"><!-- page title begin -->
+        <div class="section">
+          <div class="row">
+            <div class="col s12">
+              <h2 class="myPageTitle">Privacy Terms Of Service</h2>
+            </div>
+          </div>
+        </div>
+      </div><!-- page title end -->
+      <div class="container">
+        <div class="section">
+          <div class="row">
+            <div class="col s12">
+              <h4>What is this Privacy Policy for?</h4>
+						<p>This privacy policy is for this website [www.websitename.co.uk] and served by [### COMPANY NAME ###] and governs the privacy of its users who choose to use it.</p>
+						<p>The policy sets out the different areas where user privacy is concerned and outlines the obligations & requirements of the users, the website and website owners. Furthermore the way this website processes, stores and protects user data and information will also be detailed within this policy.</p>
+						<h4>The Website</h4>
+						<p>This website and it's owners take a proactive approach to user privacy and ensure the necessary steps are taken to protect the privacy of its users throughout their visiting experience. This website comply's to all UK national laws and requirements for user privacy.</p>
+						<h4>Use of Cookies</h4>
+						<p>This website uses cookies to better the users experience while visiting the website. Where applicable this website uses a cookie control system allowing the user on their first visit to the website to allow or disallow the use of cookies on their computer / device. This complies with recent legislation requirements for website's to obtain explicit consent from users before leaving behind or reading files such as cookies on a users computer / device.</p>
+						<p>Cookies are small files saved to the users computers hard drive that track, save and store information about the users interactions and usage of the website. This allows the website, through it's server to provide the users with a tailored experience within this website.
+						Users are advised that if they wish to deny the use and saving of cookies from this website on to their computers hard drive they should take necessary steps within their web browsers security settings to block all cookies from this website and it's external serving vendors.</p>
+						<p>This website uses tracking software to monitor it's visitors to better understand how they use it. This software is provided by Google Analytics which uses cookies to track visitor usage. The software will save a cookie to your computers hard drive in order to track and monitor your engagement and usage of the website but will not store, save or collect personal information. You can read Google's privacy policy here for further information [ http://www.google.com/privacy.html ].
+						Other cookies may be stored to your computers hard drive by external vendors when this website uses referral programs, sponsored links or adverts. Such cookies are used for conversion and referral tracking and typically expire after 30 days, though some may take longer. No personal information is stored, saved or collected.</p>
+						<h4>Contact & Communication</h4>
+						<p>Users contacting this website and/or it's owners do so at their own discretion and provide any such personal details requested at their own risk. Your personal information is kept private and stored securely until a time it is no longer required or has no use, as detailed in the Data Protection Act 1998. Every effort has been made to ensure a safe and secure form to email submission process but advise users using such form to email processes that they do so at their own risk.
+						This website and it's owners use any information submitted to provide you with further information about the products / services they offer or to assist you in answering any questions or queries you may have submitted. This includes using your details to subscribe you to any email newsletter program the website operates but only if this was made clear to you and your express permission was granted when submitting any form to email process. Or whereby you the consumer have previously purchased from or enquired about purchasing from the company a product or service that the email newsletter relates to. This is by no means an entire list of your user rights in regard to receiving email marketing material. Your details are not passed on to any third parties.</p>
+						<h4>Email Newsletter</h4>
+						<p>This website operates an email newsletter program, used to inform subscribers about products and services supplied by this website. Users can subscribe through an online automated process should they wish to do so but do so at their own discretion. Some subscriptions may be manually processed through prior written agreement with the user.</p>
+						<p>Subscriptions are taken in compliance with UK Spam Laws detailed in the Privacy and Electronic Communications Regulations 2003. All personal details relating to subscriptions are held securely and in accordance with the Data Protection Act 1998. No personal details are passed on to third parties nor shared with companies / people outside of the company that operates this website. Under the Data Protection Act 1998 you may request a copy of personal information held about you by this website's email newsletter program. A small fee will be payable. If you would like a copy of the information held on you please write to the business address at the bottom of this policy.</p>
+						<p>Email marketing campaigns published by this website or it's owners may contain tracking facilities within the actual email. Subscriber activity is tracked and stored in a database for future analysis and evaluation. Such tracked activity may include; the opening of emails, forwarding of emails, the clicking of links within the email content, times, dates and frequency of activity [this is by no far a comprehensive list].	This information is used to refine future email campaigns and supply the user with more relevant content based around their activity.</p>
+						<p>In compliance with UK Spam Laws and the Privacy and Electronic Communications Regulations 2003 subscribers are given the opportunity to un-subscribe at any time through an automated system. This process is detailed at the footer of each email campaign. If an automated un-subscription system is unavailable clear instructions on how to un-subscribe will by detailed instead.</p>
+						<h4>External Links</h4>
+						<p>Although this website only looks to include quality, safe and relevant external links users should always adopt a policy of caution before clicking any external web links mentioned throughout this website.</p>
+						<p>The owners of this website cannot guarantee or verify the contents of any externally linked website despite their best efforts. Users should therefore note they click on external links at their own risk and this website and it's owners cannot be held liable for any damages or implications caused by visiting any external links mentioned.</p>
+						<h4>Adverts and Sponsored Links</h4>
+						<p>This website may contain sponsored links and adverts. These will typically be served through our advertising partners, to whom may have detailed privacy policies relating directly to the adverts they serve.</p>
+						<p>Clicking on any such adverts will send you to the advertisers website through a referral program which may use cookies and will tracks the number of referrals sent from this website. This may include the use of cookies which may in turn be saved on your computers hard drive. Users should therefore note they click on sponsored external links at their own risk and this website and it's owners cannot be held liable for any damages or implications caused by visiting any external links mentioned.</p>
+						<h4>Social Media Platforms</h4>
+						<p>Communication, engagement and actions taken through external social media platforms that this website and it's owners participate on are custom to the terms and conditions as well as the privacy policies held with each social media platform respectively.</p>
+						<p>Users are advised to use social media platforms wisely and communicate / engage upon them with due care and caution in regard to their own privacy and personal details. This website nor it's owners will ever ask for personal or sensitive information through social media platforms and encourage users wishing to discuss sensitive details to contact them through primary communication channels such as by telephone or email.</p>
+						<p>This website may use social sharing buttons which help share web content directly from web pages to the social media platform in question. Users are advised before using such social sharing buttons that they do so at their own discretion and note that the social media platform may track and save your request to share a web page respectively through your social media platform account.</p>
+						<h4>Shortened Links in Social Media</h4>
+						<p>This website and it's owners through their social media platform accounts may share web links to relevant web pages. By default some social media platforms shorten lengthy url's [web addresses]. </p>
+						<p>Users are advised to take caution and good judgement before clicking any shortened url's published on social media platforms by this website and it's owners. Despite the best efforts to ensure only genuine url's are published many social media platforms are prone to spam and hacking and therefore this website and it's owners cannot be held liable for any damages or implications caused by visiting any shortened links.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer"><!-- Footer Begin -->
+      <div class="container">
+        <div class="row">
+          <div class="col l3 s6">
+            <h5 class="myHeaderFont">Our Latest Work</h5>
+            <a href="portfolioitem.html"><img class="responsive-img" src="images/portfolios/portfolio6.jpg"/></a>
+            <ul>
+              <li><a href="blogposts.html">Blog</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="comingsoon.html">ComingSoon</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s6">
+            <h5 class="myHeaderFont">Company Nav</h5>
+            <ul>
+              <li><a href="aboutus.html">AboutUs</a></li>
+              <li><a href="portfolio2colopt1.html">Portfolio</a></li>
+              <li><a href="products2cols.html">eShop</a></li>
+              <li><a href="services2cols.html">Services</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="locations.html">Locations</a></li>
+              <li><a href="vacancies.html">Vacancies</a></li>
+              <li><a href="sitemap.html">SiteMap</a></li>
+              <li><a href="privacyterms.html">Privacy Terms</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s6">
+            <h5 class="myHeaderFont">Contacts</h5>
+             <p>
+               CompanyName<br/>
+               125 Your Street<br/>
+               Your City, Your State, Your ZipCode<br/>
+               Your Country<br/>
+               <b>Cust:</b> 1-800-234-5555<br/>
+               <b>Office:</b> 1-219-456-0988<br/>
+               <b>Fax:</b> 1-219-456-0987<br/>
+               <b>Email:</b> <a href="mailto:email@company.com">email@company.com</a><br/>
+               <b>Slack Support Channel:</b> <a href="!#">Slack Support Channel</a>
+             </p>
+          </div>
+          <div class="col l3 s6">
+            <h5 class="myHeaderFont">Connect</h5>
+            <ul class="">
+              <li><a href="!#" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+              <li><a href="!#" target="_blank"><i class="fa fa-google-plus"></i> Google Plus</a></li>
+              <li><a href="!#" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container ">
+          &copy;2017 Fred Grott, UpLabs Paid License
+        </div>
+      </div>
+    </footer><!-- Footer End -->
+  </body>
+</html>

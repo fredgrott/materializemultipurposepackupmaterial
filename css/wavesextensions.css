@@ -1,0 +1,48 @@
+
+
+.waves-effect.waves-pink .waves-ripple{
+  background-color: rgba(233, 30, 99, 0.65);
+}
+.waves-effect.waves-purple .waves-ripple{
+  background-color: rgba(156, 39, 176, 0.65);
+}
+.waves-effect.waves-deep-purple .waves-ripple{
+  background-color: rgba(103, 58, 183, 0.65);
+}
+.waves-effect.waves-indigo .waves-ripple{
+  background-color: rgba(63, 81, 181, 0.65);
+}
+.waves-effect.waves-blue .waves-ripple{
+  background-color: rgba(33, 150, 243, 0.65);
+}
+.waves-effect.waves-light-blue .waves-ripple{
+  background-color: rgba(3, 169, 244, 0.65);
+}
+.waves-effect.waves-cyan .waves-ripple{
+  background-color: rgba(0, 188, 212, 0.65);
+}
+
+
+.waves-effect.waves-light-green .waves-ripple{
+  background-color: rgba(139, 195, 74, 0.65);
+}
+.waves-effect.waves-lime .waves-ripple{
+  background-color: rgba(205, 220, 57, 0.65);
+}
+
+.waves-effect.waves-amber .waves-ripple{
+  background-color: rgba(255, 193, 7, 0.65);
+}
+
+.waves-effect.waves-deep-orange .waves-ripple{
+  background-color: rgba(255, 87, 34, 0.65);
+}
+.waves-effect.waves-brown .waves-ripple{
+  background-color: rgba(121, 85, 72, 0.65);
+}
+.waves-effect.waves-grey .waves-ripple{
+  background-color: rgba(158, 158, 158, 0.65);
+}
+.waves-effect.waves-blue-grey .waves-ripple{
+  background-color: rgba(96, 125, 139, 0.65);
+}

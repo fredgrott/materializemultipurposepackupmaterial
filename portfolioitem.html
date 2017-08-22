@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!-- =======================================
+     Item Name: MaterializeMultiPurpose
+     Author Name: Fred Grott
+     Author URI: http://www.uplabs.com/fred.grott
+     ============================================
+
+    You will find that I put notes specific to this Pack in all the layout files.
+    Just read the comments as I added them with that purpose in mind.
+
+   -->
+<html lang="en"><!-- HTML Begin -->
+  <head><!-- Head Begin -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0 shrink-to-fit=no">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <meta name="description" content="MaterializeMultiPurpose is fully loaded with all the features of a multipurpose site including portoflios, products, services, etc.">
+
+    <title>Portfolio Item</title>
+
+    <!-- Favicons for Android, iOS, MS-mobile, Desktop -->
+    <link rel="icon" sizes="192x192" href="images/favicons/fg-favicon-192x192.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicons/fg-favicon-144x144.png">
+    <link rel="shortcut icon" href="images/favicons/fg-favicon-72x72.png">
+    <link rel="apple-touch-icon"  href="images/favicons/fg-favicon-72x72.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/fg-favicon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/fg-favicon-144x144.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/fg-favicon-180x180.png">
+
+    <!-- CSS, CSS framework first than fonts than custom -->
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="css/material-icons.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="css/wavesextensions.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+
+    <!-- to prevent fout when using lettering.js -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <!-- Specific jquery plugins to a page go here-->
+
+    <script src="js/init.js"></script>
+
+
+
+    <!-- Facebook, Twitter, and few other popular social platforms
+         require Schema.org, Open Graph, or other markup so that
+         when sharing the url the correct images and site url
+         get posted right during the share -->
+
+    <!-- Schema.org markup goes here -->
+
+    <!-- Open Graph markup goes here -->
+
+    <!-- Twitter Card markup goes here -->
+
+
+
+  </head><!-- Head End -->
+  <body>
+    <header>
+      <!-- DropDown Structures, they have to be outside of nav tags -->
+      <ul id="dropdown1" class="dropdown-content">
+          <li><a href="#!">one</a></li>
+          <li><a href="#!">two</a></li>
+          <li class="divider"></li>
+          <li><a href="#!">three</a></li>
+      </ul>
+      <ul id="dropdown2" class="dropdown-content">
+          <li><a href="#!">one</a></li>
+          <li><a href="#!">two</a></li>
+          <li class="divider"></li>
+          <li><a href="#!">three</a></li>
+      </ul>
+      <ul id="dropdown3" class="dropdown-content">
+         <li><a href="#!">one</a></li>
+         <li><a href="#!">two</a></li>
+         <li class="divider"></li>
+         <li><a href="#!">three</a></li>
+      </ul>
+      <nav><!-- nav begin -->
+        <div class="nav-wrapper"><!-- nav-wrapper begin -->
+          <!-- Hamburger menu icon activation -->
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <!-- desktop left menu -->
+          <ul class="left hide-on-med-and-down">
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pages.html">Pages</a></li>
+            <li><a href="credits.html">Credits</a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Drop1<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+          <a href="index.html" class="center brand-logo"><img src="images/materialized-logo.png"></a><!-- Nav mobile wrapped Logo -->
+          <ul id="mymine" class="right">
+            <!-- A material-icons quirk is that one has trouble putting text right next to the icon,
+                 hence using fotn awsome for the shopping cart badge-->
+            <li><a class=" white-text" href="shoppingcart.html"><i class="fa fa-shopping-cart"></i>4</a></li>
+            <!-- Through your app stuff icon gets changed per login status:
+                     fa fa-unlock for logged-in
+                     fa fa-lock for not logged in
+                  -->
+            <li><a href="login.html"><i class="fa fa-unlock"></i></a></li>
+          </ul>
+          <!-- Mobile Hamburger Menu that slides out-->
+          <ul class="side-nav indigo lighten-5" id="mobile-demo">
+
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pages.html">Pages</a></li>
+            <li><a href="credits.html">Credits</a></li>
+             <li class="no-padding">
+               <ul class="collapsible collapsible-accordion">
+                 <li>
+                   <a class="collapsible-header">Drop1<i class="material-icons">arrow_drop_down</i></a>
+                   <div class="collapsible-body">
+                       <ul>
+                         <li><a href="#!">First</a></li>
+                         <li><a href="#!">Second</a></li>
+                         <li><a href="#!">Third</a></li>
+                         <li><a href="#!">Fourth</a></li>
+                       </ul>
+                    </div>
+                  </li>
+                </ul>
+            </li>
+          </ul>
+        </div><!-- nav wrapper end -->
+      </nav><!-- nav end -->
+    </header>
+    <main>
+      <div id="mybreadcrumbs" class="container"><!-- breadcrumbs begin --->
+        <div class="section">
+          <div class="row">
+            <div clas="col s12">
+              <!-- Breadcrumbs go hee so that they appear on both desktop and mobile
+                   as the Materialize CSS framework hides them on mobile with the
+                   nav-wrapper -->
+            </div>
+          </div>
+        </div>
+      </div><!-- breadcrumbs end-->
+      <div id="pagetitle" class="container"><!-- page title begin -->
+        <div class="section">
+          <div class="row">
+            <div class="col s12">
+              <h2 class="myPageTitle">Portfolio Item</h2>
+            </div>
+          </div>
+        </div>
+      </div><!-- page title end -->
+      <div class="container">
+        <div class="section">
+          <div class="row">
+            <div class="col l6 m6 s12">
+              <a href="#"><img src="images/portfolios/portfolio2.jpg"></a>
+            </div>
+            <div class="col l6 m6 s12">
+              <div class="card-panel">
+                <h3>Project Description</h3>
+						<p>
+							Mauris auctor blandit neque eu cursus. Nunc vel commodo dui, sed tempus mi. Fusce eleifend, orci ut elementum porta, mauris leo porta purus.
+						</p>
+						<p>
+							Etiam aliquet tempor est nec pharetra. Etiam interdum tincidunt orci vitae elementum. Donec sollicitudin quis risus sit amet lobortis. Fusce sed tincidunt nisl.
+						</p>
+						<ul >
+							<li><b>Client:</b> Some Client LTD</li>
+							<li><b>Date:</b> 01, September 2012 - 23, February 2013</li>
+							<li><b>Technologies:</b> HTML5, CSS3, jQuery, PHP, MySQL</li>
+							<li><a href="#" class="btn indigo">Visit Website</a></li>
+						</ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <h3>Related Projects</h3>
+            <div class="col l4 m4 s12">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portfolios/portfolio3.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator black-text ">Project Name<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title black-text ">Project Name<i class="material-icons right">close</i></span>
+                  <ul>
+                    <li>Website design & Development</li>
+									<li>Client: Some Client LTD</li>
+									<li class="read-more"><a href="#" class="btn indigo">Read more</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col l4 m4 s12">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portfolios/portfolio4.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator black-text ">Project Name<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title black-text ">Project Name<i class="material-icons right">close</i></span>
+                  <ul>
+                    <li>Website design & Development</li>
+									<li>Client: Some Client LTD</li>
+									<li class="read-more"><a href="#" class="btn indigo">Read more</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col l4 m4 s12">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/portfolios/portfolio5.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator black-text ">Project Name<i class="material-icons right">more_vert</i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title black-text ">Project Name<i class="material-icons right">close</i></span>
+                  <ul>
+                    <li>Website design & Development</li>
+									<li>Client: Some Client LTD</li>
+									<li class="read-more"><a href="#" class="btn indigo">Read more</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer"><!-- Footer Begin -->
+      <div class="container">
+        <div class="row">
+          <div class="col l3 s6">
+            <h5 class="myHeaderFont">Our Latest Work</h5>
+            <a href="portfolioitem.html"><img class="responsive-img" src="images/portfolios/portfolio6.jpg"/></a>
+            <ul>
+              <li><a href="blogposts.html">Blog</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="comingsoon.html">ComingSoon</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s6">
+            <h5 class="myHeaderFont">Company Nav</h5>
+            <ul>
+              <li><a href="aboutus.html">AboutUs</a></li>
+              <li><a href="portfolio2colopt1.html">Portfolio</a></li>
+              <li><a href="products2cols.html">eShop</a></li>
+              <li><a href="services2cols.html">Services</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="locations.html">Locations</a></li>
+              <li><a href="vacancies.html">Vacancies</a></li>
+              <li><a href="sitemap.html">SiteMap</a></li>
+              <li><a href="privacyterms.html">Privacy Terms</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s6">
+            <h5 class="myHeaderFont">Contacts</h5>
+             <p>
+               CompanyName<br/>
+               125 Your Street<br/>
+               Your City, Your State, Your ZipCode<br/>
+               Your Country<br/>
+               <b>Cust:</b> 1-800-234-5555<br/>
+               <b>Office:</b> 1-219-456-0988<br/>
+               <b>Fax:</b> 1-219-456-0987<br/>
+               <b>Email:</b> <a href="mailto:email@company.com">email@company.com</a><br/>
+               <b>Slack Support Channel:</b> <a href="!#">Slack Support Channel</a>
+             </p>
+          </div>
+          <div class="col l3 s6">
+            <h5 class="myHeaderFont">Connect</h5>
+            <ul class="">
+              <li><a href="!#" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+              <li><a href="!#" target="_blank"><i class="fa fa-google-plus"></i> Google Plus</a></li>
+              <li><a href="!#" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container ">
+          &copy;2017 Fred Grott, UpLabs Paid License
+        </div>
+      </div>
+    </footer><!-- Footer End -->
+  </body>
+</html>
